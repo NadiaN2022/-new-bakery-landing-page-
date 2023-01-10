@@ -40,13 +40,31 @@ nav {
 
 .section-about {
     height: 640px;
-    background-image: url(../img/bread-img.jpeg);
+    background-image: url(../img/01-Картинка-фона.jpg);
     background-position: center;
     background-size: cover;
     position: relative;
     margin-bottom: 20px;
-} 
+}
 
+.section-about_block {
+    width: 420px;
+    height: 190px;
+    background: linear-gradient(180deg, rgba(244, 213, 178, 0.8) 0%, rgba(234, 156, 65, 0.8)100%);
+    position: absolute;
+    top: 54%;
+    left: 50%; 
+    padding-top: 15px;
+}
+.section-about_border {
+width: 390px;
+height: 160px;
+border: 1px solid black; 
+margin: 0 auto; 
+padding: 17px 0 0 28px;
+text-align: left; 
+
+}
 
 .title-1 {
     font-size: 36px;
@@ -58,12 +76,7 @@ nav {
     font-size: 20px;
     margin: 0;
 }
-h1 {
 
-    font-family: 'Roboto', sans-serif;
-    font-weight: 700;
-    font-size: 60px;
-}
 .section-description {
     margin-bottom: 20px;
 
@@ -98,26 +111,30 @@ h1 {
     text-align: center;
     width: 1000px;
     margin: 0 auto;
-
 }
 
-h2 {
+
+.Section-map_title {
+
+    margin-bottom: 20px;
     text-align: center;
-    font-size: 40px;
-    
-}
-.button {
-background-color: green;
-font-size: medium;
+    font-size: 36px;
 }
 
-.email-submit-form {
-    text-align: center;
+iframe {
+    display: block;
     margin: 0 auto;
-    font-size: 20px;
 }
 
-.container-video { 
-    display: block; 
-    margin: auto; 
+.line {
+    border-top: 1px solid grey; 
+    width: 1024px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+h1 {
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
 }
