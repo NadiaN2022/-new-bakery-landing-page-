@@ -109,7 +109,7 @@
      font-size: 20px;
      margin: 0px;
      text-align: center;
-     width: 1000px;
+     width: 100%;
      margin: 0 auto;
  }
  
@@ -124,6 +124,8 @@
  iframe {
      display: block;
      margin: 0 auto;
+     width: 90%;
+     aspect-ratio: 16/9;
  }
  
  .line {
